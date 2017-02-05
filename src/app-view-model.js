@@ -1,5 +1,4 @@
-import poly from 'es6-object-assign';
-poly.polyfill();
+import 'easyapp/utils/polyfill';
 import can from 'can';
 import route from 'can/route/';
 import 'can/route/pushstate/';

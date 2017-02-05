@@ -45,7 +45,8 @@
       "cryptojs.base64": "cryptojslib/components/enc-base64",
       "cryptojs.hmac": "cryptojslib/components/hmac",
       "cryptojs.pbkdf2": "cryptojslib/components/pbkdf2"
-    }
+    },
+    "transpiler": "babel"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
@@ -71,14 +72,8 @@
   },
   "devDependencies": {
     "can-fixture": "^0.1.2",
-    "documentjs": "^0.4.2",
-    "donejs-cli": "^0.9.4",
-    "donejs-deploy": "^0.4.0",
-    "funcunit": "~3.0.0",
-    "steal-nw": "^0.1.4",
     "steal-qunit": "^0.1.1",
-    "steal-tools": "^0.16.0",
-    "testee": "^0.2.4"
+    "steal-tools": "^0.16.0"
   },
   "window": {
     "width": 1000,
