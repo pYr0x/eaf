@@ -1,0 +1,40 @@
+@import "colors";
+@import "mixins";
+
+.navbar-default {
+  & .media-body {
+    h4, span.text {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+    h4 {
+      max-width: 230px;
+    }
+    span.text {
+      min-width: 250px;
+    }
+  }
+}
+
+.navbar-brand {
+  img {
+    height: 40px;
+    display: inline-block;
+  }
+  .ultra {
+    position: relative;
+    top: 3px;
+  }
+  padding: 5px 15px;
+  font-size: 30px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: @brand-primary;
+}
+.navbar-default .navbar-nav .dropdown-menu>li>a:hover {
+  background-color: @brand-primary-lightest;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+  color: #fff;
+  background-color: @brand-primary;
+}

@@ -1,0 +1,219 @@
+
+.alert-danger {
+  border-radius: 0;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  border-bottom: 3px solid @brand-primary;
+}
+
+.input-group-addon {
+  border-radius: 0;
+}
+.input-group {
+  & > .input-group-addon {
+    border-bottom: none;
+  }
+  & > .form-control {
+    border-bottom: none;
+  }
+  border-bottom: 3px solid @brand-primary;
+}
+
+.modal-dialog {
+  .modal-content {
+    border-radius: 0;
+    border-bottom: 3px solid @brand-primary;
+  }
+}
+
+
+.btn {
+
+  &.btn-sm {
+    font-size: 12px;
+    padding: 9px 25px;
+  }
+  &.btn-xs {
+    font-size: 10px !important;
+    padding: 6px 10px !important;
+  }
+  &.btn-xxs {
+    font-size: 10px;
+    padding: 2px 8px;
+  }
+
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 15px 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.btn-group-vertical {
+  & > .btn:first-child:not(:last-child) {
+    border-radius: 0;
+  }
+  & > .btn:last-child:not(:first-child) {
+    border-radius: 0;
+  }
+}
+.form-control {
+
+  &.input-xs {
+    height: 29px;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 0;
+  }
+
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border-radius: 0;
+
+  -webkit-appearance: none;
+}
+
+.navbar-default .navbar-toggle {
+  border-radius: 0;
+}
+
+
+ul.pagination {
+  > li:last-child > a, > li:last-child > span, > li:first-child > a, > li:first-child > span {
+    border-radius: 0;
+  }
+}
+
+
+.panel {
+  .panel-heading {
+    border-radius: 0;
+    border: 1px solid @grey-lighter;
+  }
+  .panel-footer {
+    border: 1px solid @grey-lighter;
+    border-bottom: none;
+  }
+  .panel-body {
+    .pull-right {
+      margin-left: 15px;
+      margin-bottom: 15px;
+    }
+    img {
+      margin-bottom: 5px;
+    }
+    border-left: 1px solid @grey-lighter;
+    border-right: 1px solid @grey-lighter;
+  }
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  border-bottom: 3px solid @brand-primary;
+}
+
+.panel {
+  .panel-heading {
+    h4 {
+      margin: 0;
+      line-height: 29px;
+    }
+    .pull-right {
+      position: relative;
+      top: 5px;
+    }
+
+    background-color: @grey-lightest;
+  }
+  .panel-footer {
+    padding: 15px;
+    background-color: @grey-lightest;
+  }
+
+  color: @grey-darkest;
+}
+.panel-collapse {
+  label {
+    margin: 0 4px 2px 8px;
+    font-size: 12px;
+  }
+  h4 {
+    margin-top: 0;
+  }
+  .collapse-wrapper {
+    padding: 2px 0 10px 0;
+  }
+
+  margin-bottom: 0;
+}
+
+.modal-dialog {
+  .modal-header, .modal-footer {
+    background-color: @grey-lightest;
+    border-color: @grey-lighter;
+  }
+
+  color: @grey-darkest;
+}
+
+
+.navbar-default,
+.navbar-default .navbar-nav .open>a:hover,
+.navbar-default .navbar-nav .open>a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  border-color: @brand-primary;
+  background-color: @grey-darkest;
+}
+.navbar-default .navbar-nav .dropdown-menu>li>a:hover {
+  background-color: @brand-primary-lightest;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: @white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: @brand-primary;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: @white;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: @white;
+  background-color: @brand-primary;
+}
+.navbar-default .navbar-toggle {
+  border-color: @brand-primary;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: @brand-primary;
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  body {
+    margin-top:125px;
+  }
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: @white;
+  background-color: @brand-primary;
+}
+.dropdown .dropdown-toggle .badge {
+  position: relative;
+  background-color: @brand-primary;
+
+  .transition();
+}
+.dropdown:not(.open) .dropdown-toggle:hover .badge {
+  color: @brand-primary;
+  background-color: @white;
+}

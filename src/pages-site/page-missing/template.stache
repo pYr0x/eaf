@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-md-12 col-lg-10 col-lg-offset-1">
+    <div class="h1 no-top-margin">{{i18n.pageMissingTitle}}</div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12 col-lg-10 col-lg-offset-1">
+    <div class="panel text-center">
+      <h3>{{i18n.pageMissingText}}</h3>
+    </div>
+  </div>
+</div>
