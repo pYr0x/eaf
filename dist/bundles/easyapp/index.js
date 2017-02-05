@@ -1030,15 +1030,6 @@ define('package.json!npm', [
             'resolutions': { 'bootstrap': '3.3.7' }
         },
         {
-            'name': 'bootstrap-select',
-            'version': '1.12.2',
-            'fileUrl': './node_modules/bootstrap-select/package.json',
-            'main': 'dist/js/bootstrap-select.js',
-            'globalBrowser': {},
-            'browser': {},
-            'resolutions': { 'jquery': '2.2.4' }
-        },
-        {
             'name': 'can',
             'version': '2.3.28',
             'fileUrl': './node_modules/can/package.json',
@@ -1215,6 +1206,15 @@ define('package.json!npm', [
                 'jquery': '2.2.4',
                 'can-simple-dom': '0.3.0'
             }
+        },
+        {
+            'name': 'bootstrap-select',
+            'version': '1.12.2',
+            'fileUrl': './node_modules/bootstrap-select/package.json',
+            'main': 'dist/js/bootstrap-select.js',
+            'globalBrowser': {},
+            'browser': {},
+            'resolutions': { 'jquery': '2.2.4' }
         },
         {
             'name': 'can-connect',
